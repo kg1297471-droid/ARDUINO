@@ -1,34 +1,30 @@
-# Arduino Projects
+// LED pins
+int led1 = 8;
+int led2 = 9;
+int led3 = 10;
+int led4 = 11;
 
-Welcome to my Arduino Project Portfolio!
+void setup() {
+  pinMode(led1, OUTPUT);
+  pinMode(led2, OUTPUT);
+  pinMode(led3, OUTPUT);
+  pinMode(led4, OUTPUT);
+}
 
-This repository contains my Arduino and ESP32 projects, including source code, circuit diagrams, project documentation, photos, and videos.
+void loop() {
+  digitalWrite(led1, HIGH);
+  delay(500);
+  digitalWrite(led1, LOW);
 
-## About Me
-Hi, I'm Priyanshu. I am passionate about electronics, embedded systems, IoT, and programming. This repository documents my learning journey and projects.
+  digitalWrite(led2, HIGH);
+  delay(500);
+  digitalWrite(led2, LOW);
 
-## Projects
+  digitalWrite(led3, HIGH);
+  delay(500);
+  digitalWrite(led3, LOW);
 
-### 1. LED Blinking Project
-- Description: Basic Arduino project to blink an LED at regular intervals.
-- Components: Arduino Uno, LED, Resistor
-- Skills Learned: Digital Output, Arduino Programming
-
-## Technologies Used
-- Arduino IDE
-- C/C++
-- Arduino Uno
-- ESP32
-- Sensors and Modules
-
-## Future Projects
-- Smart Home Automation
-- Wi-Fi Controlled Devices
-- IoT Projects
-- Sensor-Based Systems
-
-## Contact
-Feel free to explore my projects and follow my progress!
-
----
-⭐ Thanks for visiting my repository!
+  digitalWrite(led4, HIGH);
+  delay(500);
+  digitalWrite(led4, LOW);
+}
