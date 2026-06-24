@@ -1,0 +1,34 @@
+# Arduino Projects
+
+Welcome to my Arduino Project Portfolio!
+
+This repository contains my Arduino and ESP32 projects, including source code, circuit diagrams, project documentation, photos, and videos.
+
+## About Me
+Hi, I'm Priyanshu. I am passionate about electronics, embedded systems, IoT, and programming. This repository documents my learning journey and projects.
+
+## Projects
+
+### 1. LED Blinking Project
+- Description: Basic Arduino project to blink an LED at regular intervals.
+- Components: Arduino Uno, LED, Resistor
+- Skills Learned: Digital Output, Arduino Programming
+
+## Technologies Used
+- Arduino IDE
+- C/C++
+- Arduino Uno
+- ESP32
+- Sensors and Modules
+
+## Future Projects
+- Smart Home Automation
+- Wi-Fi Controlled Devices
+- IoT Projects
+- Sensor-Based Systems
+
+## Contact
+Feel free to explore my projects and follow my progress!
+
+---
+⭐ Thanks for visiting my repository!
